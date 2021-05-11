@@ -48,8 +48,8 @@ class Solution(object):
         return result
 
 
-num = [0]
-k = 0
+num = [1,0]
+k = 1
 s = Solution()
 result = s.addToArrayForm(num, k)
 print(result)

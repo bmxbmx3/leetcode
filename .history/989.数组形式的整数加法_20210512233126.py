@@ -1,8 +1,8 @@
 '''
 Author: your name
 Date: 2021-05-10 23:12:08
-LastEditTime: 2021-05-12 23:31:34
-LastEditors: Please set LastEditors
+LastEditTime: 2021-05-12 23:31:21
+LastEditors: your name
 Description: In User Settings Edit
 FilePath: \leetcode\989.数组形式的整数加法.py
 '''
@@ -22,9 +22,8 @@ class Solution(object):
     def addToArrayForm(self, num, k):
         """
         思路：
-        1.先排除异常情况
-        2.将数组变成对应数字，加上一个数后，将相加结果变回数组
-        
+1.先排除异常情况
+2.将数组变成对应数字，加上一个数后，将相加结果变回数组
         :type num: List[int] 待加数字的数组
         :type k: int 所加的数字
         :rtype: List[int] 加数字后的数组
@@ -58,7 +57,7 @@ class Solution(object):
         return result
 
 
-num = [1, 0]
+num = [1,0]
 k = 1
 s = Solution()
 result = s.addToArrayForm(num, k)
